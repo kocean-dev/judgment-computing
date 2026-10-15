@@ -2,7 +2,7 @@
 
 ## The Final Question of AI Computing
 
-**Version 1.0**  
+**Version 1.0.1**  
 October 2026  
 YL Khim
 
@@ -358,6 +358,14 @@ This work is released under the Creative Commons Attribution 4.0 International (
 
 ---
 
-**Version 1.0**  
+**Version 1.0.1**  
 October 2026  
 YL Khim
+
+## Citation
+If you reference or discuss this work, please cite:
+
+Khim, Y. L. (2026).
+*Judgment Computing Manifesto* (Version 1.0.1).
+Zenodo.
+https://doi.org/10.5281/zenodo.23388471
