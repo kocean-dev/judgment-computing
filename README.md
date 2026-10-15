@@ -2,7 +2,7 @@
 
 ## The Final Question of AI Computing
 
-**Version 1.0.1**  
+**Version 1.1.0**  
 October 2026  
 YL Khim
 
@@ -172,6 +172,72 @@ A constitution defines priorities.
 If governance manages behavior, a constitution constrains governance itself.
 
 What we may ultimately need is not more rules, but clearer priorities.
+
+---
+
+# Possible Structures of Judgment
+
+If judgment is indeed a computable problem, future systems may require structures beyond execution, intent, verification, and governance.
+
+We do not claim that such structures already exist.
+
+We merely suggest that sufficiently autonomous systems may eventually require mechanisms capable of addressing conflicts that rules alone cannot resolve.
+
+Such structures might include:
+
+### Constitution
+
+A constitution defines foundational priorities and non-negotiable boundaries.
+
+It is not merely a collection of rules.
+
+It establishes which values take precedence when multiple principles come into conflict.
+
+### Governance
+
+Governance defines operational policies and behavioral constraints.
+
+If a constitution defines priorities, governance applies those priorities to the operation of a system.
+
+### Conflict Resolution
+
+Rules do not eliminate conflict.
+
+Goals compete.
+
+Principles collide.
+
+Values may point toward different conclusions.
+
+Future systems may therefore require mechanisms capable of identifying, evaluating, and reconciling competing objectives.
+
+### Human Final Authority
+
+Judgment ultimately raises the question of responsibility.
+
+No matter how capable a system becomes, responsibility cannot be delegated entirely to machines.
+
+Human beings must remain the final authority.
+
+---
+
+These concepts are not presented here as a complete framework.
+
+Nor are they intended as a proposed architecture for future systems.
+
+They are merely examples of the kinds of structures that may become necessary if computing ultimately encounters the problem of judgment.
+
+Rules may guide action.
+
+Governance may constrain action.
+
+Yet neither necessarily determines which principle should prevail when principles themselves come into conflict.
+
+The form such systems may eventually take remains unknown.
+
+What matters here is not the structure itself.
+
+What matters is the possibility that judgment may require structures beyond those that computing has traditionally relied upon.
 
 ---
 
@@ -358,14 +424,16 @@ This work is released under the Creative Commons Attribution 4.0 International (
 
 ---
 
-**Version 1.0.1**  
+**Version 1.1.0**  
 October 2026  
 YL Khim
 
 ## Citation
+
 If you reference or discuss this work, please cite:
 
-Khim, Y. L. (2026).
-*Judgment Computing Manifesto* (Version 1.0.1).
+Khim, Y. L. (2026).  
+*Judgment Computing Manifesto* (Version 1.1.0).  
 Zenodo.
+
 https://doi.org/10.5281/zenodo.23388471
