@@ -469,7 +469,7 @@ AI 전문가도 아니다.
 
 ---
 
-**Version 1.0.1**  
+**Version 1.1.0**  
 2026년 10월  
 YL Khim
 
@@ -477,6 +477,6 @@ YL Khim
 If you reference or discuss this work, please cite:
 
 Khim, Y. L. (2026).
-*Judgment Computing Manifesto* (Version 1.0.1).
+*Judgment Computing Manifesto* (Version 1.1.0).
 Zenodo.
 https://doi.org/10.5281/zenodo.23388471
