@@ -2,8 +2,8 @@
 
 ## The Final Question of AI Computing
 
-**Version 1.1.0**  
-October 2026  
+**Version 2.0.0**  
+November 2026  
 YL Khim
 
 > A manifesto exploring the possibility that the next stage of computing beyond Intent Computing may be Judgment Computing.
@@ -59,7 +59,11 @@ Applications later emerged, allowing humans to select functions instead of writi
 
 Workflow systems connected those functions into processes.
 
-Today we are approaching another transition.
+Yet connecting functions does not by itself constitute work.
+
+The work that humans perform is broader than individual applications or fixed workflows.
+
+Only when computing begins to address work itself—beyond the execution of tools—do we approach another transition.
 
 Humans are gradually moving from describing procedures to describing intentions.
 
@@ -67,7 +71,11 @@ Systems increasingly attempt to understand desired outcomes and determine for th
 
 Many people refer to this transition as **Intent Computing**.
 
-Yet the moment intent becomes executable, computing is no longer merely a problem of execution.
+Yet intent does not exist in a vacuum.
+
+Intent carries meaning only within the context of the work a human is performing.
+
+And the moment intent becomes executable within context, computing is no longer merely a problem of execution.
 
 It becomes a problem of authority.
 
@@ -117,6 +125,10 @@ Future systems should not be systems that speculate on behalf of their users.
 
 They should be systems that operate within mutually agreed boundaries.
 
+A contract defines the scope of authority.
+
+It establishes boundaries that must not be crossed and leaves a clear standard of accountability for outcomes.
+
 Authority originates from intent.
 
 Intent is legitimized through contract.
@@ -140,6 +152,34 @@ Decisions should be traceable.
 Future systems may be required not merely to be trustworthy, but to be verifiable.
 
 > Trust may be optional. Verification is essential.
+
+---
+
+# Failure and Continuity
+
+Even when action begins within a verified contract, the real world remains imperfect.
+
+External systems may fail to respond.
+
+Resources may be exhausted.
+
+Assumptions may collapse during execution.
+
+Traditional systems simply halted or returned errors in the face of failure.
+
+Yet for a system delegated with intent, what matters most is not the success of an individual command.
+
+What matters is the continuity of the human's work and agreed intent.
+
+When confronted with failure, a system should be able to explore alternatives within the boundaries of its agreed contract.
+
+At the same time, recovery that exceeds those contracted boundaries must never be guessed by the system alone.
+
+Failure beyond the boundary must return to human judgment.
+
+A trustworthy system is not a system that never fails.
+
+It is a system that never loses its intent or its boundaries in the midst of failure.
 
 ---
 
@@ -175,6 +215,32 @@ What we may ultimately need is not more rules, but clearer priorities.
 
 ---
 
+# Separation of Capability and Judgment
+
+Many systems today assume that greater intelligence will naturally produce better decisions.
+
+Yet intelligence and judgment are not the same.
+
+Models and execution engines are continually improved and replaced.
+
+Today's most powerful intelligence becomes tomorrow's outdated tool.
+
+If a system's standards and principles are bound inside a specific model, the identity and trustworthiness of the system will waver every time its engine is replaced.
+
+We therefore propose another structural principle:
+
+> Preserve the Constitution, Replace the Engines.
+
+Capability comes from replaceable engines.
+
+Authority, boundaries, and priorities must remain within the constitution and governance of the system.
+
+Intelligence may generate options.
+
+Yet intelligence itself must never become the constitution.
+
+---
+
 # Possible Structures of Judgment
 
 If judgment is indeed a computable problem, future systems may require structures beyond execution, intent, verification, and governance.
@@ -199,7 +265,7 @@ Governance defines operational policies and behavioral constraints.
 
 If a constitution defines priorities, governance applies those priorities to the operation of a system.
 
-### Conflict Resolution
+### Conflict Resolution and Precedent
 
 Rules do not eliminate conflict.
 
@@ -210,6 +276,10 @@ Principles collide.
 Values may point toward different conclusions.
 
 Future systems may therefore require mechanisms capable of identifying, evaluating, and reconciling competing objectives.
+
+Furthermore, the outcomes of such reconciliation should not evaporate as one-off decisions.
+
+Decisions made by humans and systems in resolving conflicts may be recorded alongside their context, accumulating as precedent and memory of work to guide similar situations in the future.
 
 ### Human Final Authority
 
@@ -348,7 +418,7 @@ Computing learned how to execute commands.
 
 Computing learned how to manage applications and workflows.
 
-It is now learning how to execute intent.
+It is now learning how to execute intent within the context of work.
 
 What comes next remains unknown.
 
@@ -377,7 +447,13 @@ Application Computing
         ↓
 Workflow Computing
         ↓
+Work Computing
+        ↓
 Intent Computing
+        ↓
+Context Computing
+        ↓
+Trust Computing
         ↓
 Judgment Computing ?
 ```
@@ -424,8 +500,8 @@ This work is released under the Creative Commons Attribution 4.0 International (
 
 ---
 
-**Version 1.1.0**  
-October 2026  
+**Version 2.0.0**  
+November 2026  
 YL Khim
 
 ## Citation
@@ -433,7 +509,7 @@ YL Khim
 If you reference or discuss this work, please cite:
 
 Khim, Y. L. (2026).  
-*Judgment Computing Manifesto* (Version 1.1.0).  
+*Judgment Computing Manifesto* (Version 2.0.0).  
 Zenodo.
 
 https://doi.org/10.5281/zenodo.23388471
