@@ -1,6 +1,6 @@
 # Judgment Computing: Conceptual Glossary & Taxonomy
 
-> **Version 2.0.0** — November 2026  
+> **Version 2.0.1** — November 2026  
 > **Author**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388471](https://doi.org/10.5281/zenodo.23388471)  
 > **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -98,7 +98,7 @@ To cite this glossary:
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.0},
+  version      = {2.0.1},
   doi          = {10.5281/zenodo.23388471},
   url          = {https://doi.org/10.5281/zenodo.23388471}
 }

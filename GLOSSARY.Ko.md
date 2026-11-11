@@ -1,6 +1,6 @@
 # 판단 컴퓨팅: 핵심 개념 용어집 및 분류 체계 (Conceptual Glossary & Taxonomy)
 
-> **Version 2.0.0** — 2026년 11월  
+> **Version 2.0.1** — 2026년 11월  
 > **저자**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388471](https://doi.org/10.5281/zenodo.23388471)  
 > **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
@@ -98,7 +98,7 @@
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.0},
+  version      = {2.0.1},
   doi          = {10.5281/zenodo.23388471},
   url          = {https://doi.org/10.5281/zenodo.23388471}
 }
