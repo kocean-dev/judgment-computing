@@ -9,7 +9,7 @@ YL Khim
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23388471.svg)](https://doi.org/10.5281/zenodo.23388471)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-[English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture Specification](ARCHITECTURE.md) • [Taxonomy Glossary](GLOSSARY.md)
+[English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
 > A manifesto exploring the possibility that the next stage of computing beyond Intent Computing may be Judgment Computing.
 >
