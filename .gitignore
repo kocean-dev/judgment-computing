@@ -1,0 +1,6 @@
+# Obsidian internal workspace cache
+.obsidian/
+
+# OS metadata
+.DS_Store
+Thumbs.db

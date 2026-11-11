@@ -6,6 +6,11 @@
 2026년 11월  
 YL Khim
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23388471.svg)](https://doi.org/10.5281/zenodo.23388471)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+[English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture Specification](ARCHITECTURE.md) • [Taxonomy Glossary](GLOSSARY.md)
+
 > Intent Computing 이후 컴퓨팅의 다음 단계가 Judgment Computing일 수 있다는 가능성을 탐구하는 선언문.
 >
 > **판단(Judgment)은 우리의 발명이 아니다.**  
@@ -537,6 +542,24 @@ AI 전문가도 아니다.
 그리고 그 탐구는 현재 하나의 질문 위에 놓여 있다.
 
 > 판단은 계산될 수 있는가?
+
+---
+
+## 출간 예정 단행본: 《판단 컴퓨팅 (Judgment Computing)》
+
+> **“AI 이후, 컴퓨터는 무엇을 실행하는가”**  
+> 저자: YL Khim (2026년 말 / 2027년 초 출간 예정)
+
+본 선언문이 판단 컴퓨팅의 핵심 철학과 아키텍처적 질문을 압축한 것이라면, 곧 출간될 단행본은 이를 체계적인 시스템 아키텍처와 현실 사례(응급실 데이터 열람, 보안 사고 대응, 금융 이상 거래 등)로 확장한 본격적인 아키텍처 철학서입니다:
+
+- **Part I. 컴퓨팅은 어떻게 진화해 왔는가** — 명령(Command)과 애플리케이션(Application)의 한계, 그리고 일(Work) 중심의 전환
+- **Part II. 애플리케이션을 넘어 일(Work)로** — 거대 앱의 해체, 기능(Capability) 조립, 경계(Boundary)의 UX 및 작업 중첩
+- **Part III. 의도(Intent)와 표현** — 자연어의 모호성과 의도 탐색, 명시적 의도 계약(Intent Contract)과 점진적 검증
+- **Part IV. 맥락(Context)과 기억** — 결과물 이면의 변환(Transformation) 기억, 지식 그래프, 그리고 현실적 구현 가능성(L0~L4)
+- **Part V. 신뢰(Trust)와 헌법(Constitution)** — 결정론적 검증, ‘정책보다 물리(Physics Over Policy)’, 오픈 마켓플레이스, 엔진 교체와 헌법 불변
+- **Part VI. 판단(Judgment)이라는 질문** — 규칙과 원칙의 충돌, 가치 우선순위, 그리고 왜 인간이 최종 권한(Human Sovereignty)으로 남아야 하는가
+
+*영문판 아마존 킨들(Amazon Kindle) 선출간 및 국내 종이책 단행본 출간 소식은 본 리포지토리와 Zenodo 릴리즈를 통해 공유될 예정입니다.*
 
 ---
 

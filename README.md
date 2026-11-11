@@ -6,6 +6,11 @@
 November 2026  
 YL Khim
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23388471.svg)](https://doi.org/10.5281/zenodo.23388471)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+[English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture Specification](ARCHITECTURE.md) • [Taxonomy Glossary](GLOSSARY.md)
+
 > A manifesto exploring the possibility that the next stage of computing beyond Intent Computing may be Judgment Computing.
 >
 > **Judgment is not our invention.**  
@@ -491,6 +496,24 @@ It is an intermediate record of an unfinished exploration.
 And that exploration currently rests on a single question:
 
 > Can judgment be computed?
+
+---
+
+## Upcoming Book: *Judgment Computing*
+
+> **"Beyond AI: What Does the Computer Actually Execute?"**  
+> *By YL Khim* — Forthcoming (Late 2026 / Early 2027)
+
+While this manifesto presents the foundational philosophy and taxonomy of Judgment Computing, the companion book explores the complete architectural and conceptual journey:
+
+- **Part I: How Computing Evolved** — From Command lines and Application silos to Work-centric environments.
+- **Part II: Beyond Applications to Work** — Decomposition of monolithic apps, assembly of composable capabilities, boundary UX, and recursive work nesting.
+- **Part III: Intent and Representation** — Ambiguity in natural language, explicit Intent Contracts, and progressive verification.
+- **Part IV: Context and Memory** — Memory of transformation vs. static state, knowledge graphs, and real-world system feasibility (L0–L4).
+- **Part V: Trust and Constitution** — Deterministic verification, *Physics Over Policy*, open marketplaces, and constitutional immutability (*Preserve the Constitution, Replace the Engines*).
+- **Part VI: The Question of Judgment** — Rules vs. Principles, value collisions in emergency and financial systems, and why the human must remain sovereign.
+
+*Follow this repository or watch the Zenodo release for announcements regarding the upcoming English Amazon Kindle release and Korean print edition.*
 
 ---
 

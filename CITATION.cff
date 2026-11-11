@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you reference or build upon this concept, please cite it using the metadata below."
+title: "Judgment Computing: The Final Question of AI Computing"
+authors:
+  - family-names: "Khim"
+    given-names: "Y. L."
+version: 2.0.0
+doi: 10.5281/zenodo.23388471
+date-released: 2026-11-10
+url: "https://doi.org/10.5281/zenodo.23388471"
+repository-code: "https://github.com/kocean-dev/judgment-computing"
+license: "CC-BY-4.0"
+keywords:
+  - "judgment computing"
+  - "judgment-aware computing"
+  - "intent contract"
+  - "intent computing"
+  - "physics over policy"
+  - "human sovereignty"
+  - "systems architecture"
+  - "work computing"
+abstract: "A manifesto and architectural taxonomy establishing that the ultimate frontier of post-AI computing moves beyond intelligence and capability to authority, constitutional governance, and human-sovereign judgment."
