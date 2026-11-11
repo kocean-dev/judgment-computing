@@ -2,7 +2,7 @@
 
 > **Version 2.0.1** — 2026년 11월  
 > **저자**: YL Khim  
-> **DOI**: [10.5281/zenodo.23388471](https://doi.org/10.5281/zenodo.23388471)  
+> **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
 > **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
@@ -124,8 +124,8 @@ AI 모델의 아키텍처, 추론 엔진, LLM 가중치는 빠르게 변화하�
   month        = nov,
   publisher    = {Zenodo},
   version      = {2.0.1},
-  doi          = {10.5281/zenodo.23388471},
-  url          = {https://doi.org/10.5281/zenodo.23388471}
+  doi          = {10.5281/zenodo.23388470},
+  url          = {https://doi.org/10.5281/zenodo.23388470}
 }
 ```
 

@@ -5,9 +5,9 @@ authors:
   - family-names: "Khim"
     given-names: "Y. L."
 version: 2.0.1
-doi: 10.5281/zenodo.23388471
+doi: 10.5281/zenodo.23388470
 date-released: 2026-11-11
-url: "https://doi.org/10.5281/zenodo.23388471"
+url: "https://doi.org/10.5281/zenodo.23388470"
 repository-code: "https://github.com/kocean-dev/judgment-computing"
 license: "CC-BY-4.0"
 keywords:

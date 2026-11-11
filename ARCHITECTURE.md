@@ -2,7 +2,7 @@
 
 > **Version 2.0.1** — November 2026  
 > **Author**: YL Khim  
-> **DOI**: [10.5281/zenodo.23388471](https://doi.org/10.5281/zenodo.23388471)  
+> **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
 > **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
@@ -124,8 +124,8 @@ This architectural framework is published as an open, vendor-neutral specificati
   month        = nov,
   publisher    = {Zenodo},
   version      = {2.0.1},
-  doi          = {10.5281/zenodo.23388471},
-  url          = {https://doi.org/10.5281/zenodo.23388471}
+  doi          = {10.5281/zenodo.23388470},
+  url          = {https://doi.org/10.5281/zenodo.23388470}
 }
 ```
 

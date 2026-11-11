@@ -6,7 +6,7 @@
 2026년 11월  
 YL Khim
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23388471.svg)](https://doi.org/10.5281/zenodo.23388471)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23388470.svg)](https://doi.org/10.5281/zenodo.23388470)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
@@ -579,4 +579,4 @@ If you reference or discuss this work, please cite:
 Khim, Y. L. (2026).
 *Judgment Computing Manifesto* (Version 2.0.1).
 Zenodo.
-https://doi.org/10.5281/zenodo.23388471
+https://doi.org/10.5281/zenodo.23388470
