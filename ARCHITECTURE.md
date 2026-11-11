@@ -51,7 +51,7 @@ flowchart TD
   1. *Beginner Lens*: Simplified toggle options and high-level forms.
   2. *Intermediate Lens*: Visual flowchart and boundary wiring diagrams.
   3. *Expert Lens*: High-precision declarative rules and boundary code.
-- **Transformation Memory**: Persists the evolution of work (`Raw Log` → `Pattern Recognition` → `Reusable Work Knowledge`), ensuring historical rationale is never lost.
+- **Transformation Memory**: Replaces transient conversational transcripts with a structured evolutionary record of work. By preserving the trajectory of how objectives and capabilities evolve (`Raw Log` → `Pattern Recognition` → `Reusable Work Knowledge`), the system maintains long-term contextual coherence without suffering from conversational context degradation.
 
 ### Layer 3: Trust & Governance Architecture (Authority & Constitution)
 - **Normative Hierarchy**:

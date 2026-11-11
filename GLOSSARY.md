@@ -67,7 +67,7 @@ The supreme normative hierarchy governing all policies, contracts, delegations, 
 A persistence model that records not merely static file snapshots, window placements, or conversational transcripts, but the **trajectory of work transformation**:
 > **Raw Execution Log → Pattern Discovery → Work Knowledge**
 
-It preserves *why* decisions were made, how drafts evolved, and how past precedents resolved conflicts.
+It preserves *why* decisions were made, how drafts evolved, and how past precedents resolved conflicts. By anchoring persistence to the evolution of work rather than ephemeral chat logs, it prevents conversational context degradation and maintains long-term structural coherence.
 
 ### 11. Work Unit
 The fundamental primitive of human computing activity that replaces the application window. A Work Unit binds components, intent, contextual memory, and boundaries around a coherent human objective (e.g., *Customer Incident Response*, *Seminar Preparation*). Work units can be recursively nested within larger work units.
