@@ -48,7 +48,7 @@
 
 ### 7. 경계 (Boundary / Behavior Layer)
 부품(Component), 데이터, 작업 단위 간의 상호작용 방식을 규정하는 규칙 기반 행동 계층. 경계는 부품이 **무엇을 할 수 있는가(기능, Capability)**와 **어떤 조건에서 어떻게 작동하는가(행동, Behavior)**를 완벽히 분리한다.
-- **UX 관점**: 부품의 논리적 연결 관계를 화면 좌표와 분리하여, 자유로운 테마 디자인과 AI 기반 인체공학적 배치를 지원한다.
+- **UX 관점**: 부품의 논리적 연결 관계를 화면 좌표와 분리하여, 자유로운 테마 디자인과 AI 기반 인체공학적 배치를 지원한다. 평소 화면 뒤에 숨어 있다가 특정 조건에만 나타나는 부품의 유연한 결합도 포함된다.
 - **보안 관점**: 허가되지 않은 접근을 원천 차단하는 뚫을 수 없는 구조적 성벽(*Physics Over Policy*)으로 기능한다.
 
 ### 8. 헌법 보존과 엔진 교체 (Preserve the Constitution, Replace the Engines)
@@ -58,13 +58,15 @@
 
 ### 9. 헌법 (Constitution / Operational Framework)
 시스템 또는 조직 내의 모든 정책, 계약, 위임, 런타임 복구 전략을 지배하는 최상위 규범 체계:
-$$\text{인간 주권(Human Sovereignty)} \to \text{가치} \to \text{원칙} \to \text{헌법} \to \text{거버넌스 및 정책} \to \text{실행}$$
+> **인간 주권 (Human Sovereignty) → 가치 (Values) → 원칙 (Principles) → 헌법 (Constitution) → 거버넌스 및 정책 (Governance & Policies) → 런타임 실행 (Runtime Execution)**
+
 - 도메인(의료, 금융, 개인 비서 등)에 따라 특화된 헌법이 존재할 수 있으나, 모든 헌법은 **인간의 최종 권한과 책임**이라는 불가침의 전제를 공유한다.
 - 헌법 개정은 일상적인 정책 오버라이드와 분리되어 물리적으로 격리되고 다자간 승인이 요구되는 엄격한 절차를 거친다.
 
 ### 10. 일의 기억 (Memory of Work / Transformation Memory)
 단순한 파일 스냅샷, 창 위치 복원, 혹은 대화 텍스트 기록에 머무르지 않고, **작업이 변환되어 온 궤적(Transformation Trajectory)**을 기록하는 영속성 모델:
-$$\text{원시 실행 로그} \longrightarrow \text{패턴 발견} \longrightarrow \text{작업 지식}$$
+> **원시 실행 로그 (Raw Execution Log) → 패턴 발견 (Pattern Discovery) → 작업 지식 (Work Knowledge)**
+
 결과물이 왜 그런 형태로 만들어졌는지, 초안이 어떻게 발전했는지, 과거의 갈등과 시행착오가 어떻게 해결되었는지를 보존한다.
 
 ### 11. 작업 단위 (Work Unit)

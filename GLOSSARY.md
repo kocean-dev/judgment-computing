@@ -48,7 +48,7 @@ The architectural security principle stating that prohibited actions must be ren
 
 ### 7. Boundary (Behavior Layer)
 The rule-based execution layer that defines how components, data, and work units interact. The Boundary separates **what a component can do** (Capability) from **how and under what conditions it behaves** (Behavior).
-- In user experience, boundaries decouple logical connection from screen coordinates, allowing flexible layout, styling, and AI-assisted ergonomic arrangement.
+- In user experience, boundaries decouple logical connection from screen coordinates, allowing flexible layout, styling, and AI-assisted ergonomic arrangement—including components that remain hidden until conditionally activated.
 - In security, boundaries act as unbreachable structural containment walls (*Physics Over Policy*).
 
 ### 8. Preserve the Constitution, Replace the Engines
@@ -58,13 +58,15 @@ The architectural maxim stating that while underlying AI models and execution en
 
 ### 9. Constitution (Operational Framework)
 The supreme normative hierarchy governing all policies, contracts, delegations, and runtime recovery strategies within a system or organization:
-$$\text{Human Sovereignty} \to \text{Values} \to \text{Principles} \to \text{Constitution} \to \text{Governance \& Policy} \to \text{Execution}$$
+> **Human Sovereignty → Values → Principles → Constitution → Governance & Policies → Runtime Execution**
+
 - Specialized constitutions may exist for different domains (medical, financial, personal), but all share the inviolable premise of **Human Final Authority**.
 - Constitutional amendments require physically isolated, multi-party authorized procedures, distinct from day-to-day policy overrides.
 
 ### 10. Memory of Work (Transformation Memory)
 A persistence model that records not merely static file snapshots, window placements, or conversational transcripts, but the **trajectory of work transformation**:
-$$\text{Raw Execution Log} \longrightarrow \text{Pattern Discovery} \longrightarrow \text{Work Knowledge}$$
+> **Raw Execution Log → Pattern Discovery → Work Knowledge**
+
 It preserves *why* decisions were made, how drafts evolved, and how past precedents resolved conflicts.
 
 ### 11. Work Unit

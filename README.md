@@ -506,12 +506,12 @@ And that exploration currently rests on a single question:
 
 While this manifesto presents the foundational philosophy and taxonomy of Judgment Computing, the companion book explores the complete architectural and conceptual journey:
 
-- **Part I: How Computing Evolved** — From Command lines and Application silos to Work-centric environments.
-- **Part II: Beyond Applications to Work** — Decomposition of monolithic apps, assembly of composable capabilities, boundary UX, and recursive work nesting.
-- **Part III: Intent and Representation** — Ambiguity in natural language, explicit Intent Contracts, and progressive verification.
-- **Part IV: Context and Memory** — Memory of transformation vs. static state, knowledge graphs, and real-world system feasibility (L0–L4).
-- **Part V: Trust and Constitution** — Deterministic verification, *Physics Over Policy*, open marketplaces, and constitutional immutability (*Preserve the Constitution, Replace the Engines*).
-- **Part VI: The Question of Judgment** — Rules vs. Principles, value collisions in emergency and financial systems, and why the human must remain sovereign.
+- **Part I: How Computing Evolved — The History of Translation Cost**: The limits of commands and application silos, moving toward work-centric environments.
+- **Part II: Beyond Applications to Work — From Windows to Composable Assemblies**: Deconstructing monolithic apps, capability assembly, boundary UX, and recursive work nesting.
+- **Part III: The Era of Intent — From Guesswork to Contracts, From Code to New Representations**: Ambiguity in natural language, intent discovery, explicit Intent Contracts, and progressive verification.
+- **Part IV: The Era of Context and Memory — No Identical Intent Exists**: Transformation memory vs. static state, work knowledge graphs, and real-world system feasibility (L0–L4).
+- **Part V: The Era of Trust and Constitution — Intelligence Alone Cannot Be Trusted**: Deterministic verification, *Physics Over Policy*, open marketplaces, and constitutional immutability (*Preserve the Constitution, Replace the Engines*).
+- **Part VI: The Final Question of Judgment — Who Decides When Rules Collide?**: Rules vs. Principles, value collisions in emergency and financial systems, justified overrides (precedents), and human sovereignty.
 
 *Follow this repository or watch the Zenodo release for announcements regarding the upcoming English Amazon Kindle release and Korean print edition.*
 

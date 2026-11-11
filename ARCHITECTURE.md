@@ -30,29 +30,14 @@ graph TD
 
 To realize Judgment-Aware Computing, systems must answer four distinct questions through four orthogonal architecture layers:
 
-```text
-               ┌───────────────────────────────────────────────┐
-               │          1. Intent Architecture               │
-               │   "Why does this system act? What contract?"  │
-               └───────────────────────┬───────────────────────┘
-                                       │
-                                       ▼
-┌──────────────────────────────────────┴──────────────────────────────────────┐
-│                  2. Work & Representation Architecture                      │
-│            "What capabilities are assembled, and how is it expressed?"      │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │
-                                       ▼
-┌──────────────────────────────────────┴──────────────────────────────────────┐
-│                  3. Trust & Governance Architecture                         │
-│           "Should it act? Under whose sovereignty? Proven how?"             │
-└──────────────────────────────────────┬──────────────────────────────────────┘
-                                       │
-                                       ▼
-┌──────────────────────────────────────┴──────────────────────────────────────┐
-│                  4. Runtime & Continuity Architecture                       │
-│        "How does it execute with minimal complexity and recover safely?"     │
-└─────────────────────────────────────────────────────────────────────────────┘
+```mermaid
+flowchart TD
+    L1["<b>1. Intent Architecture</b><br><i>'Why does this system act? What contract?'</i>"]
+    L2["<b>2. Work & Representation Architecture</b><br><i>'What capabilities are assembled, and how is it expressed?'</i>"]
+    L3["<b>3. Trust & Governance Architecture</b><br><i>'Should it act? Under whose sovereignty? Proven how?'</i>"]
+    L4["<b>4. Runtime & Continuity Architecture</b><br><i>'How does it execute with minimal complexity and recover safely?'</i>"]
+
+    L1 --> L2 --> L3 --> L4
 ```
 
 ### Layer 1: Intent Architecture (Why & Contract)
@@ -66,17 +51,18 @@ To realize Judgment-Aware Computing, systems must answer four distinct questions
   1. *Beginner Lens*: Simplified toggle options and high-level forms.
   2. *Intermediate Lens*: Visual flowchart and boundary wiring diagrams.
   3. *Expert Lens*: High-precision declarative rules and boundary code.
-- **Transformation Memory**: Persists the evolution of work (`Raw Log` $\to$ `Pattern Recognition` $\to$ `Reusable Work Knowledge`), ensuring historical rationale is never lost.
+- **Transformation Memory**: Persists the evolution of work (`Raw Log` → `Pattern Recognition` → `Reusable Work Knowledge`), ensuring historical rationale is never lost.
 
 ### Layer 3: Trust & Governance Architecture (Authority & Constitution)
 - **Normative Hierarchy**:
-  $$\text{Human Sovereignty} > \text{Values} > \text{Principles} > \text{Constitution} > \text{Policies} > \text{Runtime}$$
+  > **Human Sovereignty → Values → Principles → Constitution → Policies → Runtime**
 - **Physics Over Policy**: Restricts data movement and capabilities at the structural topology level. An unauthorized path has no physical channel.
 - **Verification Before Trust**: Separates capability from evaluation. Actions are deterministic proofs (80%) supplemented by semantic confidence scoring (20%).
 - **The 90 : 8 : 2 Intervention Principle**:
   - **90% Silent Execution**: Pre-verified, boundary-contained routine tasks run without interrupting the user.
   - **8% Ambient Awareness**: Low-risk edge cases surface lightweight non-blocking previews.
   - **2% Synchronous Gate**: Irreversible actions, value collisions, or boundary breaches immediately halt execution and request human judgment.
+- **Justified Override & Precedents**: In emergency or crisis situations, authorized humans may invoke temporary exceptions to standard rules without modifying the underlying Constitution. The system records the operational context, justified rationale, and assumed risk into immutable precedent logs for subsequent audit.
 
 ### Layer 4: Runtime & Continuity Architecture (How & Resilience)
 - **Deterministic Orchestration**: The execution engine does not deliberate on values; it strictly enforces the compiled execution graph (*Orchestrator, Not Judge*).
@@ -110,14 +96,16 @@ Lower levels never depend on higher-level machinery. A simple file-save runs at 
 
 ## 4. Preserving the Constitution, Replacing the Engines
 
-```text
-               [ Persistent Constitutional Layer ]
-       (Human Sovereignty · Value Hierarchy · Boundary Physics)
-                                 │
-           ┌─────────────────────┼─────────────────────┐
-           ▼                     ▼                     ▼
-   [ AI Engine Alpha ]   [ AI Engine Beta ]    [ Local Compact Engine ]
-   (Writing & Analysis)  (Code & Formal Proof) (Air-gapped Edge Tasks)
+```mermaid
+flowchart TD
+    Const["<b>Persistent Constitutional Layer</b><br>(Human Sovereignty · Value Hierarchy · Boundary Physics)"]
+    Eng1["<b>AI Engine Alpha</b><br>(Writing & Analysis)"]
+    Eng2["<b>AI Engine Beta</b><br>(Code & Formal Proof)"]
+    Eng3["<b>Local Compact Engine</b><br>(Air-gapped Edge Tasks)"]
+
+    Const --> Eng1
+    Const --> Eng2
+    Const --> Eng3
 ```
 
 Model architectures, reasoning engines, and LLM weights are volatile and replaceable. The Constitutional Layer remains independent, auditable, and immutable by the models themselves. Changes to the Constitution require physically isolated, multi-party authorized procedures.
