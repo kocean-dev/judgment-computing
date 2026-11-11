@@ -57,11 +57,11 @@ flowchart TD
 - **Normative Hierarchy**:
   > **Human Sovereignty → Values → Principles → Constitution → Policies → Runtime**
 - **Physics Over Policy**: Restricts data movement and capabilities at the structural topology level. An unauthorized path has no physical channel.
-- **Verification Before Trust**: Separates capability from evaluation. Actions are deterministic proofs (80%) supplemented by semantic confidence scoring (20%).
-- **The 90 : 8 : 2 Intervention Principle**:
-  - **90% Silent Execution**: Pre-verified, boundary-contained routine tasks run without interrupting the user.
-  - **8% Ambient Awareness**: Low-risk edge cases surface lightweight non-blocking previews.
-  - **2% Synchronous Gate**: Irreversible actions, value collisions, or boundary breaches immediately halt execution and request human judgment.
+- **Verification Before Trust**: Separates capability from evaluation. Whatever can be proven is proven deterministically; semantic confidence scoring supplements only what remains.
+- **Asymmetric Intervention (illustrative ratio 90 : 8 : 2)**:
+  - **Most (e.g., 90%) — Silent Execution**: Pre-verified, boundary-contained routine tasks run without interrupting the user.
+  - **Some (e.g., 8%) — Ambient Awareness**: Low-risk edge cases surface lightweight non-blocking previews.
+  - **Few (e.g., 2%) — Synchronous Gate**: Irreversible actions, value collisions, or boundary breaches immediately halt execution and request human judgment.
 - **Justified Override & Precedents**: In emergency or crisis situations, authorized humans may invoke temporary exceptions to standard rules without modifying the underlying Constitution. The system records the operational context, justified rationale, and assumed risk into immutable precedent logs for subsequent audit.
 
 ### Layer 4: Runtime & Continuity Architecture (How & Resilience)
@@ -73,7 +73,7 @@ flowchart TD
 
 ---
 
-## 3. Progressive Runtime Activation Model (L0 ~ L4)
+## 3. Progressive Activation Model (L0 ~ L4)
 
 To prevent cognitive and architectural bloat, systems follow the principle:  
 > **Activate the minimum complexity required for success.**

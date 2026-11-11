@@ -18,7 +18,7 @@ This glossary defines the foundational concepts, principles, and architectural t
 ## Core Taxonomy
 
 ### 1. Judgment Computing
-The theoretical and architectural paradigm of computing that emerges after Command, Application, Workflow, Work, Intent, Context, and Trust Computing. It addresses situations where multiple valid principles or rules conflict, complete information is unavailable, and decisions require value prioritization and moral or legal accountability.
+The theoretical and architectural paradigm of computing that emerges after Command, Application, Workflow, Work, Intent, Context, and Trust & Constitutional Computing. It addresses situations where multiple valid principles or rules conflict, complete information is unavailable, and decisions require value prioritization and moral or legal accountability.
 
 ### 2. Judgment-Aware Computing
 The practical systems model of Judgment Computing. Rather than attempting to compute or simulate subjective values autonomously, a **Judgment-Aware System** is architecturally designed to:
@@ -77,7 +77,7 @@ A structured mechanism allowing an authorized human to temporarily bypass a stan
 - The override does **not** silently alter the Constitution or rules.
 - It records who broke the rule, why it was justified, which higher value was preserved, and what risk was assumed, crystallizing into a transparent **Precedent (판례)** for future audit and review.
 
-### 13. Progressive Runtime Activation (Levels 0 to 4)
+### 13. Progressive Activation (Levels 0 to 4)
 An efficiency and reliability principle: *Activate the minimum complexity required for success*.
 - **Level 0 (Command)**: Simple deterministic tool invocation (open, print, save).
 - **Level 1 (Composition)**: Ad-hoc component combination on a work surface.

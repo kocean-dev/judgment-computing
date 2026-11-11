@@ -20,7 +20,7 @@ graph TD
     C --> D["4. 일 컴퓨팅 (Work)<br>(목적 중심의 작업 단위 및 부품 조립)"]
     D --> E["5. 의도 컴퓨팅 (Intent)<br>(의도 탐색과 명시적 의도 계약 체결)"]
     E --> F["6. 맥락 컴퓨팅 (Context)<br>(변환 기억과 작업 지식 그래프)"]
-    F --> G["7. 신뢰 및 헌법 컴퓨팅 (Trust & Constitution)<br>(결정론적 검증과 절대적 경계 물리)"]
+    F --> G["7. 신뢰와 헌법 컴퓨팅 (Trust & Constitutional)<br>(결정론적 검증과 절대적 경계 물리)"]
     G --> H["8. 판단 컴퓨팅 (Judgment ?)<br>(인간 주권과 가치 충돌의 외부 위임)"]
 ```
 
@@ -34,7 +34,7 @@ graph TD
 flowchart TD
     L1["<b>1. 의도 아키텍처 (Intent Architecture)</b><br><i>'시스템은 왜 행동하는가? 어떤 계약인가?'</i>"]
     L2["<b>2. 일 및 표현 아키텍처 (Work & Representation Architecture)</b><br><i>'어떤 기능들이 조립되며, 화면과 데이터로 어떻게 표현되는가?'</i>"]
-    L3["<b>3. 신뢰 및 거버넌스 아키텍처 (Trust & Governance Architecture)</b><br><i>'행동해도 되는가? 누구의 주권 아래 있는가? 어떻게 증명되는가?'</i>"]
+    L3["<b>3. 신뢰와 거버넌스 아키텍처 (Trust & Governance Architecture)</b><br><i>'행동해도 되는가? 누구의 주권 아래 있는가? 어떻게 증명되는가?'</i>"]
     L4["<b>4. 런타임 및 연속성 아키텍처 (Runtime & Continuity Architecture)</b><br><i>'복잡성을 최소화하며 어떻게 실행되고, 오류 시 어떻게 안전하게 복구되는가?'</i>"]
 
     L1 --> L2 --> L3 --> L4
@@ -53,16 +53,16 @@ flowchart TD
   3. *전문가 렌즈 (Expert Lens)*: 정밀한 선언적 규칙 코드 및 경계 명세 스크립트.
 - **변환의 기억 (Transformation Memory)**: 휘발적인 대화 텍스트 덤프 대신 일(Work)이 진화해 온 구조적 궤적을 보존한다. 작업의 이유와 변화 과정(`원시 로그` → `패턴 발견` → `재사용 가능한 작업 지식`)을 지속적인 지식으로 증류함으로써, 대화 문맥의 비대화와 왜곡을 방지하고 장기적인 맥락 연속성을 유지한다.
 
-### 제3계층: 신뢰 및 거버넌스 아키텍처 (Trust & Governance Layer — Authority & Constitution)
+### 제3계층: 신뢰와 거버넌스 아키텍처 (Trust & Governance Layer — Authority & Constitution)
 - **규범적 위계 질서 (Normative Hierarchy)**:
   > **인간 주권 (Human Sovereignty) → 가치 (Values) → 원칙 (Principles) → 헌법 (Constitution) → 정책 (Policies) → 런타임 (Runtime)**
 - **정책보다 물리 (Physics Over Policy)**: 프롬프트 경고나 사후 감사 규정에 의존하지 않고, 아키텍처적 위상(Topology) 구조 자체에서 비인가 경로를 차단한다. 허가되지 않은 통로로는 데이터와 권한이 물리적으로 흐를 수 없다.
-- **신뢰에 앞서는 검증 (Verification Before Trust)**: 지능적 생성 능력과 형식적 평가 권한을 엄격히 분리한다. 결정론적 증명(80%)을 기본으로 하고 의미론적 신뢰도 점수(20%)로 이를 보완한다.
-- **90 : 8 : 2 개입 원칙 (The 90 : 8 : 2 Intervention Principle)**:
-  - **90% 침묵 실행 (Silent Execution)**: 사전 검증되고 경계 내부로 격리된 일상적 작업은 사용자를 방해하지 않고 조용히 완수된다.
-  - **8% 주변 인지 (Ambient Awareness)**: 경미한 변형이나 안전한 예외 상황은 작업을 차단하지 않는 가벼운 프리뷰나 알림으로 표출된다.
-  - **2% 동기식 승인 게이트 (Synchronous Gate)**: 되돌릴 수 없는 행동, 다중 원칙 간의 충돌, 헌법적 경계 침범 시에는 즉각 실행을 멈추고 인간의 판단을 요청한다.
-- **정당화된 예외와 판례 (Justified Override & Precedents)**: 위기 상황 시 권한을 가진 인간이 표준 규칙을 일시적으로 우회할 수 있도록 지원하되, 시스템이나 헌법을 몰래 바꾸지 않고 감수된 위험과 정당화 사유를 불변의 판례(Precedent)로 기록하여 투명하게 감사한다.
+- **신뢰에 앞서는 검증 (Verification Before Trust)**: 지능적 생성 능력과 형식적 평가 권한을 엄격히 분리한다. 증명할 수 있는 것은 결정론적으로 증명하고, 나머지에 한해 의미론적 신뢰도 점수로 보완한다.
+- **개입의 비대칭 (Asymmetric Intervention, 이해를 돕기 위한 예시 비율 90 : 8 : 2)**:
+  - **대부분(예: 90%) 침묵 실행 (Silent Execution)**: 사전 검증되고 경계 내부로 격리된 일상적 작업은 사용자를 방해하지 않고 조용히 완수된다.
+  - **일부(예: 8%) 주변 인지 (Ambient Awareness)**: 경미한 변형이나 안전한 예외 상황은 작업을 차단하지 않는 가벼운 프리뷰나 알림으로 표출된다.
+  - **소수(예: 2%) 동기식 승인 게이트 (Synchronous Gate)**: 되돌릴 수 없는 행동, 다중 원칙 간의 충돌, 헌법적 경계 침범 시에는 즉각 실행을 멈추고 인간의 판단을 요청한다.
+- **설명 가능한 예외와 판례 (Justified Override & Precedents)**: 위기 상황 시 권한을 가진 인간이 표준 규칙을 일시적으로 우회할 수 있도록 지원하되, 시스템이나 헌법을 몰래 바꾸지 않고 감수된 위험과 정당화 사유를 불변의 판례(Precedent)로 기록하여 투명하게 감사한다.
 
 ### 제4계층: 런타임 및 연속성 아키텍처 (Runtime & Continuity Layer — How & Resilience)
 - **결정론적 오케스트레이션 (Deterministic Orchestration)**: 런타임 실행 엔진은 스스로 가치를 고민하거나 판단하지 않는다. 상위 계층에서 컴파일된 실행 그래프를 엄격히 집행하는 집행관(*Orchestrator, Not Judge*)의 역할만 수행한다.
@@ -73,7 +73,7 @@ flowchart TD
 
 ---
 
-## 3. 점진적 런타임 활성화 모델 (L0 ~ L4)
+## 3. 점진적 활성화 모델 (Progressive Activation) (L0 ~ L4)
 
 인지적 과부하와 불필요한 시스템 복잡성을 방지하기 위해 다음과 같은 설계 원칙을 준수한다:  
 > **목적 달성에 필요한 최소한의 복잡성만 활성화한다 (Activate the minimum complexity required for success).**

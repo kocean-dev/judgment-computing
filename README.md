@@ -458,7 +458,7 @@ Intent Computing
         ↓
 Context Computing
         ↓
-Trust Computing
+Trust & Constitutional Computing
         ↓
 Judgment Computing ?
 ```
