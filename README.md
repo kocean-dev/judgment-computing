@@ -499,10 +499,10 @@ And that exploration currently rests on a single question:
 
 ---
 
-## Upcoming Book: *Judgment Computing*
+## Upcoming Book: *Judgment Computing — What Computers Execute After AI*
 
-> **"Beyond AI: What Does the Computer Actually Execute?"**  
-> *By YL Khim* — Forthcoming (Late 2026 / Early 2027)
+> **"Intelligence alone is not enough — Anticipating the next era of computing through Work, Intent, Context, and Judgment"**  
+> *By YL Khim* — 2026 Digital Edition (Forthcoming)
 
 While this manifesto presents the foundational philosophy and taxonomy of Judgment Computing, the companion book explores the complete architectural and conceptual journey:
 
@@ -511,9 +511,9 @@ While this manifesto presents the foundational philosophy and taxonomy of Judgme
 - **Part III: The Era of Intent — From Guesswork to Contracts, From Code to New Representations**: Ambiguity in natural language, intent discovery, explicit Intent Contracts, and progressive verification.
 - **Part IV: The Era of Context and Memory — No Identical Intent Exists**: Transformation memory vs. static state, work knowledge graphs, and real-world system feasibility (L0–L4).
 - **Part V: The Era of Trust and Constitution — Intelligence Alone Cannot Be Trusted**: Deterministic verification, *Physics Over Policy*, open marketplaces, and constitutional immutability (*Preserve the Constitution, Replace the Engines*).
-- **Part VI: The Final Question of Judgment — Who Decides When Rules Collide?**: Rules vs. Principles, value collisions in emergency and financial systems, justified overrides (precedents), and human sovereignty.
+- **Part VI: The Final Question of Judgment — Who Decides When Rules Collide?**: Rules vs. Principles, value collisions in emergency and financial systems, justified overrides (precedents), and human final authority.
 
-*Follow this repository or watch the Zenodo release for announcements regarding the upcoming English Amazon Kindle release and Korean print edition.*
+*The English Digital Edition is forthcoming, followed by the Korean edition. Follow this repository or watch the Zenodo release for publication links and updates.*
 
 ---
 
