@@ -517,6 +517,22 @@ While this manifesto presents the foundational philosophy and taxonomy of Judgme
 
 ---
 
+## Companion Volume: *The Delta of Thought — Thoughts Fade, Changes Remain*
+
+> **"Thoughts Fade, Changes Remain"**  
+> *By YL Khim* — 2026 Digital Edition
+
+If *Judgment Computing* asks *“What should future computers execute?”*, ***The Delta of Thought*** answers ***“How did those ideas evolve in practice alongside AI?”***—chronicling the behind-the-scenes workflow from which the architecture emerged:
+
+- **Document Memory Over AI Memory**: Moving persistent context out of fleeting chat windows into human-curated plain Markdown files shared directly between human and AI.
+- **Thought Delta (`Δ`) Versioning**: Instead of drowning in full file backups or erasing discarded paths, capturing *what shifted and why* (`History` & `Decision Notes`) as a human–AI semi-automated versioning loop for thinking.
+- **Swapping Engines Without Losing Context**: Rotating freely across AI tools and models like web browsers while preserving human sovereignty, causal reasoning lineage, and the foundational insight behind *Transformation Memory* and intent-continuity security awareness.
+- **Thought Delta Chronicle (`AD-001–AD-026`)**: Tracing how over a hundred raw ideas compressed live from nine analytical layers into four orthogonal architectures.
+
+*(Note: Unlike the `CC BY 4.0` open documents in this repository, **The Delta of Thought** is an independent copyrighted publication — All Rights Reserved.)*
+
+---
+
 ## License
 
 This work is released under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.
