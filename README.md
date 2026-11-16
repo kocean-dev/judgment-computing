@@ -515,21 +515,8 @@ While this manifesto presents the foundational philosophy and taxonomy of Judgme
 
 *The English Digital Edition is forthcoming, followed by the Korean edition. Follow this repository or watch the Zenodo release for publication links and updates.*
 
----
-
-## Companion Volume: *The Delta of Thought — Thoughts Fade, Changes Remain*
-
-> **"Thoughts Fade, Changes Remain"**  
-> *By YL Khim* — 2026 Digital Edition
-
-If *Judgment Computing* asks *“What should future computers execute?”*, ***The Delta of Thought*** answers ***“How did those ideas evolve in practice alongside AI?”***—chronicling the behind-the-scenes workflow from which the architecture emerged:
-
-- **Document Memory Over AI Memory**: Moving persistent context out of fleeting chat windows into human-curated plain Markdown files shared directly between human and AI.
-- **Thought Delta (`Δ`) Versioning**: Instead of drowning in full file backups or erasing discarded paths, capturing *what shifted and why* (`History` & `Decision Notes`) as a human–AI semi-automated versioning loop for thinking.
-- **Swapping Engines Without Losing Context**: Rotating freely across AI tools and models like web browsers while preserving human sovereignty, causal reasoning lineage, and the foundational insight behind *Transformation Memory* and intent-continuity security awareness.
-- **Thought Delta Chronicle (`AD-001–AD-026`)**: Tracing how over a hundred raw ideas compressed live from nine analytical layers into four orthogonal architectures.
-
-*(Note: Unlike the `CC BY 4.0` open documents in this repository, **The Delta of Thought** is an independent copyrighted publication — All Rights Reserved.)*
+### Companion Volume: *The Delta of Thought — Thoughts Fade, Changes Remain*
+An independent behind-the-scenes field journal (*2026 Digital Edition, All Rights Reserved*) chronicling how the ideas behind *Judgment Computing* evolved alongside AI—preserving not only final artifacts, but why thinking changed (`Delta`) across portable documents as AI engines rotated.
 
 ---
 
