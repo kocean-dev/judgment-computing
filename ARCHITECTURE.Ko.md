@@ -1,6 +1,6 @@
 # 판단 컴퓨팅: 시스템 아키텍처 명세 및 운영 모델 (Judgment Computing Architecture)
 
-> **Version 2.1.0** — 2026년 11월  
+> **Version 2.1.1** — 2026년 11월  
 > **저자**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
 > **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
@@ -150,7 +150,7 @@ AI 모델의 아키텍처, 추론 엔진, LLM 가중치는 빠르게 변화하�
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.1.0},
+  version      = {2.1.1},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }
