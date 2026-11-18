@@ -75,7 +75,7 @@ The fundamental primitive of human computing activity that replaces the applicat
 ### 12. Justified Override (Explainable Exception & Precedent)
 A structured mechanism allowing an authorized human to temporarily bypass a standard rule in emergency or high-stakes situations (e.g., an ER physician accessing records without prior patient consent).
 - The override does **not** silently alter the Constitution or rules.
-- It records who broke the rule, why it was justified, which higher value was preserved, and what risk was assumed, crystallizing into a transparent **Precedent (판례)** for future audit and review.
+- It records who broke the rule, why it was justified, which higher value was preserved, and what risk was assumed, crystallizing into a transparent **Precedent** for future audit and review.
 
 ### 13. Progressive Activation (Levels 0 to 4)
 An efficiency and reliability principle: *Activate the minimum complexity required for success*.
