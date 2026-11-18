@@ -499,10 +499,10 @@ And that exploration currently rests on a single question:
 
 ---
 
-## Upcoming Book: *Judgment Computing — What Computers Execute After AI*
+## Companion Book: *Judgment Computing — What Computers Execute After AI*
 
 > **"Intelligence alone is not enough — Anticipating the next era of computing through Work, Intent, Context, and Judgment"**  
-> *By YL Khim* — 2026 English Digital Edition (Forthcoming)
+> *By YL Khim* — 2026 English Digital Edition (Published)
 
 While this manifesto presents the foundational philosophy and taxonomy of Judgment Computing, the companion book explores the complete architectural and conceptual journey:
 
@@ -513,10 +513,10 @@ While this manifesto presents the foundational philosophy and taxonomy of Judgme
 - **Part V: The Era of Trust and Constitution — Intelligence Alone Cannot Be Trusted**: Deterministic verification, *Physics Over Policy*, open marketplaces, and constitutional immutability (*Preserve the Constitution, Replace the Engines*).
 - **Part VI: The Final Question of Judgment — Who Decides When Rules Collide?**: Rules vs. Principles, value collisions in emergency and financial systems, justified overrides (precedents), and human final authority.
 
-*The English Digital Edition is forthcoming. Follow this repository or watch the Zenodo release for updates.*
+*The English Digital Edition is now published. Follow this repository or watch the Zenodo release for updates.*
 
 ### Companion Volume: *The Delta of Thought — Thoughts Fade, Changes Remain*
-An independent behind-the-scenes field journal (*2026 Digital Edition, All Rights Reserved*) chronicling how the ideas behind *Judgment Computing* evolved alongside AI—preserving not only final artifacts, but why thinking changed (`Delta`) across portable documents as AI engines rotated.
+An independent behind-the-scenes field journal (*2026 English Digital Edition, Published, All Rights Reserved*) chronicling how the ideas behind *Judgment Computing* evolved alongside AI—preserving not only final artifacts, but why thinking changed (`Delta`) across portable documents as AI engines rotated.
 
 ---
 
