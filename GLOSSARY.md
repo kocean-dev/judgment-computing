@@ -45,12 +45,12 @@ A foundational distinction asserting that:
 A system may possess the computational power, tool interfaces, and API access to perform an action (Capability), but it is never permitted to act unless an explicit, legitimate mandate has been delegated through an Intent Contract (Authority).
 
 ### 6. Physics Over Policy
-The architectural security principle stating that prohibited actions must be rendered **structurally and physically impossible** by the environment's boundary layer, rather than merely forbidden through prompt instructions, policies, or post-hoc auditing. If a path is unauthorized, no execution channel exists.
+The architectural security principle stating that prohibited actions should be rendered **structurally inaccessible** at the enforcement boundary layer (through capability isolation, sandboxing, and schema-enforced gateways) rather than guarded merely through prompt instructions, policies, or post-hoc auditing. Within the defined enforcement architecture and threat model, unauthorized paths expose no legitimate execution channel, while semantic and payload-level risks within authorized channels are complemented by runtime verification and human judgment gates.
 
 ### 7. Boundary (Behavior Layer)
 The rule-based execution layer that defines how components, data, and work units interact. The Boundary separates **what a component can do** (Capability) from **how and under what conditions it behaves** (Behavior).
 - In user experience, boundaries decouple logical connection from screen coordinates, allowing flexible layout, styling, and AI-assisted ergonomic arrangement—including components that remain hidden until conditionally activated.
-- In security, boundaries act as unbreachable structural containment walls (*Physics Over Policy*).
+- In security, boundaries act as structural containment walls enforcing capability isolation within the defined threat model (*Physics Over Policy*).
 
 ### 8. Preserve the Constitution, Replace the Engines
 The architectural maxim stating that while underlying AI models and execution engines are volatile and frequently deprecated, the normative criteria, value priorities, and inviolable boundaries must reside in an independent, persistent **Constitutional Layer** outside the models.
@@ -62,7 +62,7 @@ The supreme normative hierarchy governing all policies, contracts, delegations, 
 > **Human Sovereignty → Values → Principles → Constitution → Governance & Policies → Runtime Execution**
 
 - Specialized constitutions may exist for different domains (medical, financial, personal), but all share the inviolable premise of **Human Final Authority**.
-- Constitutional amendments require physically isolated, multi-party authorized procedures, distinct from day-to-day policy overrides.
+- Constitutional amendments are strictly segregated from day-to-day operational exceptions, requiring isolated, formal authorization procedures outside the runtime loop—scaling from deliberate personal cryptographic confirmation in individual environments to physically isolated, multi-party approvals in enterprise environments.
 
 ### 10. Memory of Work (Transformation Memory)
 A persistence model that records not merely static file snapshots, window placements, or conversational transcripts, but the **trajectory of work transformation**:
@@ -74,8 +74,8 @@ It preserves *why* decisions were made, how drafts evolved, and how past precede
 The fundamental primitive of human computing activity that replaces the application window. A Work Unit binds components, intent, contextual memory, and boundaries around a coherent human objective (e.g., *Customer Incident Response*, *Seminar Preparation*). Work units can be recursively nested within larger work units.
 
 ### 12. Justified Override (Explainable Exception & Precedent)
-A structured mechanism allowing an authorized human to temporarily bypass a standard rule in emergency or high-stakes situations (e.g., an ER physician accessing records without prior patient consent).
-- The override does **not** silently alter the Constitution or rules.
+A structured mechanism allowing an authorized human to invoke a time-bounded, scoped exception to subordinate operational rules in emergency or high-stakes situations (e.g., an ER physician accessing records without prior patient consent).
+- The override does **not** silently alter the Constitution, disable mandatory audit trails, or bypass inviolable constitutional floors and multi-principal safety vetoes (fail-closed).
 - It records who broke the rule, why it was justified, which higher value was preserved, and what risk was assumed, crystallizing into a transparent **Precedent** for future audit and review.
 
 ### 13. Progressive Activation (Levels 0 to 4)
@@ -104,3 +104,5 @@ To cite this glossary:
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }
 ```
+
+Released under the **[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)** license.

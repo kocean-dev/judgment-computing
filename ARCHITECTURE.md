@@ -12,7 +12,7 @@
 
 ## 1. The 8-Stage Evolutionary Paradigm
 
-Computing evolves by reducing the "translation cost" between human intent and machine execution. Each paradigm introduces a higher-order primitive:
+Computing evolves by reducing the "translation cost" between human intent and machine execution. Each paradigm introduces a higher-order primitive—representing a **conceptual abstraction ladder** rather than a strictly linear chronological timeline:
 
 ```mermaid
 graph TD
@@ -39,6 +39,8 @@ flowchart TD
     L4["<b>4. Runtime & Continuity Architecture</b><br><i>'How does it execute with minimal complexity and recover safely?'</i>"]
 
     L1 --> L2 --> L3 --> L4
+    L4 -. "Escalation & Precedent" .-> L3
+    L4 -. "Transformation Memory" .-> L2
 ```
 
 ### Layer 1: Intent Architecture (Why & Contract)
@@ -57,17 +59,17 @@ flowchart TD
 ### Layer 3: Trust & Governance Architecture (Authority & Constitution)
 - **Normative Hierarchy**:
   > **Human Sovereignty → Values → Principles → Constitution → Policies → Runtime**
-- **Physics Over Policy**: Restricts data movement and capabilities at the structural topology level. An unauthorized path has no physical channel.
+- **Physics Over Policy**: Restricts data movement and capabilities structurally at the enforcement and topology layer. Within the defined enforcement architecture and threat model, unauthorized paths expose no legitimate execution channel; semantic and payload-level risks within authorized channels are complemented by runtime verification and human judgment gates.
 - **Verification Before Trust**: Separates capability from evaluation. Whatever can be proven is proven deterministically; semantic confidence scoring supplements only what remains.
 - **Asymmetric Intervention (illustrative ratio 90 : 8 : 2)**:
   - **Most (e.g., 90%) — Silent Execution**: Pre-verified, boundary-contained routine tasks run without interrupting the user.
   - **Some (e.g., 8%) — Ambient Awareness**: Low-risk edge cases surface lightweight non-blocking previews.
   - **Few (e.g., 2%) — Synchronous Gate**: Irreversible actions, value collisions, or boundary breaches immediately halt execution and request human judgment.
-- **Justified Override & Precedents**: In emergency or crisis situations, authorized humans may invoke temporary exceptions to standard rules without modifying the underlying Constitution. The system records the operational context, justified rationale, and assumed risk into immutable precedent logs for subsequent audit.
+- **Justified Override & Precedents**: In emergency or crisis situations, authorized humans may invoke time-bounded, scoped temporary exceptions to subordinate operational policies without modifying the underlying Constitution, disabling mandatory auditability, or bypassing inviolable constitutional floors and multi-principal safety vetoes (fail-closed). Human final authority does not assume human infallibility; rather, it binds non-transferable accountability, structured justification, and immutable precedent logs to every exception for subsequent audit.
 
 ### Layer 4: Runtime & Continuity Architecture (How & Resilience)
 - **Deterministic Orchestration**: The execution engine does not deliberate on values; it strictly enforces the compiled execution graph (*Orchestrator, Not Judge*).
-- **Compile Once, Verify Once, Execute Many**: Separates expensive semantic negotiation from low-latency, verifiable execution.
+- **Compile Once, Verify Once, Execute Many**: Separates expensive semantic negotiation and static graph verification from low-latency execution, while lightweight runtime guards continuously re-verify live authority tokens and external preconditions (halting if invalidated).
 - **Work Continuity & Recovery**: When errors occur, recovery targets the **work and intent**, not merely restarting a dead component.
   - *Tier 1 (Pre-approved Fallback Pool)*: Autonomous seamless rerouting within contract boundaries.
   - *Tier 2 (Governance Re-authorization)*: Unanticipated branches trigger escalation back to human authority.
@@ -101,7 +103,7 @@ Lower levels never depend on higher-level machinery for pre-authorized, low-risk
 flowchart TD
     Const["<b>Persistent Constitutional Layer</b><br>(Human Sovereignty · Value Hierarchy · Boundary Physics)"]
     Eng1["<b>AI Engine Alpha</b><br>(Writing & Analysis)"]
-    Eng2["<b>AI Engine Beta</b><br>(Code & Formal Proof)"]
+    Eng2["<b>AI Engine Beta</b><br>(Code & Symbolic Analysis)"]
     Eng3["<b>Local Compact Engine</b><br>(Air-gapped Edge Tasks)"]
 
     Const --> Eng1
@@ -109,7 +111,7 @@ flowchart TD
     Const --> Eng3
 ```
 
-Model architectures, reasoning engines, and LLM weights are volatile and replaceable. The Constitutional Layer remains independent, auditable, and immutable by the models themselves. Changes to the Constitution require physically isolated, multi-party authorized procedures.
+Model architectures, reasoning engines, and LLM weights are volatile and replaceable. The Constitutional Layer remains independent, auditable, and structurally protected from unilateral mutation by the models themselves. Constitutional amendments occur strictly outside the runtime execution loop through explicit, verifiable authorization procedures—scaling from deliberate personal cryptographic confirmation in individual environments to physically isolated, multi-party approvals in enterprise environments.
 
 ---
 
@@ -120,7 +122,7 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
 
 1. **Contract-Anchored Continuity and Drift Defense**:
    - State transition deltas (Δ) serve not only as transformation memory compression, but also as a pre-execution continuity signal against intent drift.
-   - Relying solely on a short sliding window of recent steps fails to detect gradual multi-step escalations in cost, scope, or data sensitivity. Conformant systems evaluate **both local transition deltas and cumulative session trajectories against the immutable baseline of the original `Explicit Intent Contract`**. Legitimate workflow pivots re-anchor this baseline only through explicit **Human Assumption Shift Confirmation**, accompanied by a deterministic summary of how effective capabilities and data sensitivity differ from the original contract.
+   - Relying solely on a short sliding window of recent steps fails to detect gradual multi-step escalations in cost, scope, or data sensitivity. Conformant systems evaluate **local transition deltas, cumulative single-session trajectories, and bounded cross-session principal windows against the immutable baseline of the original `Explicit Intent Contract`**. Legitimate workflow pivots re-anchor this baseline only through explicit **Human Assumption Shift Confirmation**, accompanied by a deterministic summary of how effective capabilities and data sensitivity differ from the original contract.
 
 2. **Closing the Contract–Reality Gap via Deterministic Capability Summary Verification**:
    - When probabilistic AI translates natural-language requests into structured execution plans, its prose description (e.g., claiming "read-only") can diverge from actual compiled side-effects (**Contract–Reality Gap**).
@@ -134,7 +136,7 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
      - **Lossless Representation Integrity**: High-precision behavioral rules must never be destructively flattened into oversimplified user controls in a lossy round-trip; restricted or simplified views must preserve full semantic constraints without silent truncation.
 
 4. **Isolated Run-Local Recovery and Scoped Precedent Crystallization**:
-   - When escalated human-reauthorized recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification without mutating or contaminating the underlying template certification, whereas **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
+   - When escalated human-reauthorized recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification while remaining strictly bounded within existing authorized permission scopes and constitutional ceilings—without mutating or contaminating the underlying template certification. Capability expansion beyond certified bounds or **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
    - Repeated, post-audit-safe **Justified Overrides** and verified exception paths may be promoted into formal scoped policies (**Precedent Crystallization**), strictly constrained beneath constitutional ceilings and human sovereignty.
 
 ---

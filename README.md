@@ -11,6 +11,8 @@ YL Khim
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
+> **Repository Guide (Exploratory & Evolving)**: `README` records the philosophical question and manifesto; `ARCHITECTURE` outlines the experimental conceptual operating model and boundary invariants; `GLOSSARY` defines the core taxonomy. All documents remain open to ongoing revision as validation progresses.
+
 > A manifesto exploring the possibility that the next stage of computing beyond Intent Computing may be Judgment Computing.
 >
 > **Judgment is not our invention.**  

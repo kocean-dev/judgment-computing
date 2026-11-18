@@ -11,6 +11,8 @@ YL Khim
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
+> **저장소 문서 안내 (실험적·지속 개선)**: `README`는 철학적 질문과 선언문을, `ARCHITECTURE`는 실험적 개념 운영 모델과 핵심 경계 불변 조건을, `GLOSSARY`는 핵심 용어 체계를 다룹니다. 모든 문서는 완성된 표준이 아니며 향후 검증에 따라 계속 수정·보완될 수 있습니다.
+
 > Intent Computing 이후 컴퓨팅의 다음 단계가 Judgment Computing일 수 있다는 가능성을 탐구하는 선언문.
 >
 > **판단(Judgment)은 우리의 발명이 아니다.**  
@@ -577,9 +579,11 @@ AI 전문가도 아니다.
 YL Khim
 
 ## Citation
+
 If you reference or discuss this work, please cite:
 
-Khim, Y. L. (2026).
-*Judgment Computing Manifesto* (Version 2.1.1).
+Khim, Y. L. (2026).  
+*Judgment Computing Manifesto* (Version 2.1.1).  
 Zenodo.
+
 https://doi.org/10.5281/zenodo.23388470
