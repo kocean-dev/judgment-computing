@@ -47,7 +47,7 @@ flowchart TD
 
 ### Layer 2: Work & Representation Architecture (What & Memory)
 - **Work Units & Composition**: Deconstructs monolithic applications into modular capabilities (*Components*) connected by behavioral rules (*Boundaries*). Work units can recursively contain other work units (*Recursive Work Nesting*).
-- **Tri-View Semantic Representation**: A single canonical semantic model projected into three synchronizable view lenses:
+- **Tri-View Semantic Representation**: A single canonical semantic model projected into three asymmetrically synchronized view lenses (exposing high-precision rules to beginner forms only through lossless preset projection rather than destructive compression):
   1. *Beginner Lens*: Simplified toggle options and high-level forms.
   2. *Intermediate Lens*: Visual flowchart and boundary wiring diagrams.
   3. *Expert Lens*: High-precision declarative rules and boundary code.

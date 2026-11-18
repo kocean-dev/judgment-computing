@@ -47,7 +47,7 @@ flowchart TD
 
 ### 제2계층: 일 및 표현 아키텍처 (Work & Representation Layer — What & Memory)
 - **작업 단위와 조립 (Work Units & Composition)**: 거대 애플리케이션을 모듈형 기능 부품(*Components*)과 행동 규칙(*Boundaries*)으로 해체하고 재조립한다. 작업 단위는 더 큰 작업 단위 속에 재귀적으로 중첩될 수 있다(*Recursive Work Nesting*).
-- **삼중 렌즈 시맨틱 표현 (Tri-View Semantic Representation)**: 하나의 정형화된 정본(Canonical) 의미 모델을 사용자의 숙련도에 맞춰 실시간 동기화되는 세 가지 뷰로 투영한다:
+- **삼중 렌즈 시맨틱 표현 (Tri-View Semantic Representation)**: 하나의 정형화된 정본(Canonical) 의미 모델을 사용자의 숙련도에 맞춰 비대칭적으로 동기화·투영되는 세 가지 뷰로 제공한다(고급 규칙의 초심자 뷰 노출은 손실 없는 프리셋·매개변수 투영으로 한정):
   1. *초심자 렌즈 (Beginner Lens)*: 단순한 토글 스위치와 직관적인 양식 UI.
   2. *중급자 렌즈 (Intermediate Lens)*: 시각적 흐름도(플로우차트) 및 부품 간 경계 배선 다이어그램.
   3. *전문가 렌즈 (Expert Lens)*: 정밀한 선언적 규칙 코드 및 경계 명세 스크립트.
@@ -66,7 +66,7 @@ flowchart TD
 
 ### 제4계층: 런타임 및 연속성 아키텍처 (Runtime & Continuity Layer — How & Resilience)
 - **결정론적 오케스트레이션 (Deterministic Orchestration)**: 런타임 실행 엔진은 스스로 가치를 고민하거나 판단하지 않는다. 상위 계층에서 컴파일된 실행 그래프를 엄격히 집행하는 집행관(*Orchestrator, Not Judge*)의 역할만 수행한다.
-- **1회 컴파일, 1회 검증, N회 실행 (Compile Once, Verify Once, Execute Many)**: 비용이 많이 드는 의미론적 협상과 검증은 실행 전에 1회만 수행하고, 런타임은 지연 없는 고속·검증 완료 상태로 반복 실행한다.
+- **1회 컴파일, 1회 검증, N회 실행 (Compile Once, Verify Once, Execute Many)**: 비용이 많이 드는 의미론적 협상과 검증은 실행 전에 1회만 수행하고, 런타임은 저지연의 고속·검증 완료 상태로 반복 실행한다.
 - **일의 연속성과 다계층 복구 (Work Continuity & Recovery)**: 장애 발생 시 단순히 다운된 부품 프로세스를 재부팅하는 것이 아니라, 사용자의 **일(Work)과 의도(Intent)** 전체의 맥락을 복구 대상으로 삼는다.
   - *Tier 1 (사전 승인된 대체 풀)*: 계약 범위 내에서 시스템이 자율적으로 안전한 대체 도구나 파이프라인으로 우회 실행.
   - *Tier 2 (거버넌스 재승인)*: 계약 범위를 벗어나는 돌발 변수는 인간 권한으로 에스컬레이션하여 판단을 구함.
