@@ -133,7 +133,7 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
      - **Lossless Representation Integrity**: High-precision behavioral rules must never be destructively flattened into oversimplified user controls in a lossy round-trip; restricted or simplified views must preserve full semantic constraints without silent truncation.
 
 4. **Isolated Run-Local Recovery and Scoped Precedent Crystallization**:
-   - When Tier 2 recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification without mutating or contaminating the underlying template certification, whereas **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
+   - When escalated human-reauthorized recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification without mutating or contaminating the underlying template certification, whereas **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
    - Repeated, post-audit-safe **Justified Overrides** and verified exception paths may be promoted into formal scoped policies (**Precedent Crystallization**), strictly constrained beneath constitutional ceilings and human sovereignty.
 
 ---
