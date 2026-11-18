@@ -2,7 +2,7 @@
 
 ## AI 컴퓨팅의 마지막 질문
 
-**Version 2.0.1**  
+**Version 2.1.0**  
 2026년 11월  
 YL Khim
 
@@ -572,7 +572,7 @@ AI 전문가도 아니다.
 
 ---
 
-**Version 2.0.1**  
+**Version 2.1.0**  
 2026년 11월  
 YL Khim
 
@@ -580,6 +580,6 @@ YL Khim
 If you reference or discuss this work, please cite:
 
 Khim, Y. L. (2026).
-*Judgment Computing Manifesto* (Version 2.0.1).
+*Judgment Computing Manifesto* (Version 2.1.0).
 Zenodo.
 https://doi.org/10.5281/zenodo.23388470

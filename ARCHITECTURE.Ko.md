@@ -1,9 +1,10 @@
 # 판단 컴퓨팅: 시스템 아키텍처 명세 및 운영 모델 (Judgment Computing Architecture)
 
-> **Version 2.0.1** — 2026년 11월  
+> **Version 2.1.0** — 2026년 11월  
 > **저자**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
-> **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+> **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+> **문서 성격**: 실험적·진화 중인 개념 아키텍처 명세 (*제1~4장은 출간 단행본 부록 A·B에 수록된 `v2.0.1` 기준선과 대응하며, 제5장 및 세부 표현은 지속적인 검증에 따라 향후 수정·보완·개정될 수 있습니다.*)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
@@ -21,7 +22,7 @@ graph TD
     D --> E["5. 의도 컴퓨팅 (Intent)<br>(의도 탐색과 명시적 의도 계약 체결)"]
     E --> F["6. 맥락 컴퓨팅 (Context)<br>(변환의 기억과 작업 지식 그래프)"]
     F --> G["7. 신뢰와 헌법 컴퓨팅 (Trust & Constitutional)<br>(결정론적 검증과 절대적 경계 물리)"]
-    G --> H["8. 판단 컴퓨팅 (Judgment)<br>(인간 주권과 가치 충돌의 외부 위임)"]
+    G --> H["8. 판단 컴퓨팅 (Judgment)<br>(인간 주권과 외부화된 가치 충돌 해결)"]
 ```
 
 ---
@@ -42,7 +43,7 @@ flowchart TD
 
 ### 제1계층: 의도 아키텍처 (Intent Layer — Why & Contract)
 - **암묵적 의도 탐색 (Implicit Intent Discovery)**: 단발성 프롬프트 실행 대신 쌍방향 대화를 통해 빠진 제약 조건, 위험 프로필, 숨겨진 목적을 명확히 드러낸다.
-- **명시적 의도 계약 (Explicit Intent Contract)**: 모호한 대화형 요구사항을 법적·기술적으로 구속력 있는 실행 명세서로 컴파일한다.
+- **명시적 의도 계약 (Explicit Intent Contract)**: 모호한 대화형 요구사항을 운영상·기술적으로 구속력 있는 실행 명세서로 컴파일한다.
 - **의도 보존 (Intent Preservation)**: 하위 최적화 엔진, 라우팅 도구, 자율 에이전트가 실행 도중 인간의 원래 의도를 왜곡하거나 임의로 변경하지 못하도록 보장한다.
 
 ### 제2계층: 일 및 표현 아키텍처 (Work & Representation Layer — What & Memory)
@@ -90,7 +91,7 @@ Level 1: 작업 표면 조립 (모듈형 기능 부품의 직관적 결합)
 Level 0: 명령 실행 (단일 도구 / 단발성 액션 직접 호출)
 ```
 
-하위 레벨은 상위 레벨의 무거운 시스템에 의존하지 않는다. 단순한 텍스트 저장이나 파일 열기는 거버넌스 검증기나 복구 서브시스템을 로드하지 않고 Level 0에서 즉각 완료된다.
+사전 인가된 저위험 로컬 작업에서 하위 레벨은 상위 레벨의 무거운 시스템에 의존하지 않는다. 단순한 텍스트 저장이나 파일 열기는 거버넌스 검증기나 복구 서브시스템을 로드하지 않고 Level 0에서 즉각 완료된다. 단, 외부 부작용·민감 데이터 경계·비신뢰 작업은 상위 계층 검증을 우회하기 위해 임의로 Level 0로 하향 활성화될 수 없다.
 
 ---
 
@@ -114,8 +115,8 @@ AI 모델의 아키텍처, 추론 엔진, LLM 가중치는 빠르게 변화하�
 
 ## 5. 핵심 경계 불변 조건 및 설계 보증 (Core Boundary Invariants & Design Guarantees)
 
-> **개념적 보증 범위 (Scope of Conceptual Guarantees)**:  
-> 본 명세서는 독점적인 런타임 엔진, 세부 검증 알고리즘, 내부 데이터 스키마, 컴파일 파이프라인을 공개하지 않는다. 대신, 앞선 4대 핵심 아키텍처를 따르는 모든 판단 인식(Judgment-Aware) 시스템이 구조적으로 반드시 충족해야 할 **핵심 보안·연속성 불변 조건(Invariants)**을 정의한다.
+> **개념적 보증 범위 및 실험적 고지 (Scope & Experimental Status)**:  
+> 본 명세서는 독점적인 런타임 엔진, 세부 검증 알고리즘, 내부 데이터 스키마, 컴파일 파이프라인을 공개하지 않는다. 대신 앞선 4대 핵심 아키텍처를 따르는 모든 판단 인식(Judgment-Aware) 시스템이 구조적으로 충족해야 할 **핵심 보안·연속성 불변 조건(Invariants)**을 개념적 작업 모델로 제시한다. 본 내용은 완성된 산업 표준이나 최종 실증을 마친 고정 규격이 아닌 **실험적 탐구 명세**이므로, 향후 실증 실험과 아키텍처 검증 결과에 따라 수정·보완·개정될 수 있다.
 
 1. **계약 기준선 앵커링과 다단계 드리프트 방어 (Contract-Anchored Continuity & Drift Defense)**:
    - 상태 전이 델타(Δ)는 단순한 기억 압축 메커니즘을 넘어 실행 전 의도 이탈(Intent Drift)을 탐지하는 연속성 신호로 기능한다.
@@ -149,7 +150,7 @@ AI 모델의 아키텍처, 추론 엔진, LLM 가중치는 빠르게 변화하�
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.1},
+  version      = {2.1.0},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }

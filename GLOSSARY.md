@@ -1,9 +1,10 @@
 # Judgment Computing: Conceptual Glossary & Taxonomy
 
-> **Version 2.0.1** — November 2026  
+> **Version 2.1.0** — November 2026  
 > **Author**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
-> **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+> **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+> **Status**: Exploratory Conceptual Taxonomy (*Core terms 1–13 align with the v2.0.1 book baseline and remain subject to ongoing refinement.*)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
@@ -83,7 +84,7 @@ An efficiency and reliability principle: *Activate the minimum complexity requir
 - **Level 1 (Composition)**: Ad-hoc component combination on a work surface.
 - **Level 2 (Boundary Execution)**: Conditional logic and data transformation rules.
 - **Level 3 (Knowledge & Governance)**: Contract validation, policy checks, approval gates.
-- **Level 4 (Verification & Recovery)**: Formal proof verification, certified manifest enforcement, and multi-tier autonomous recovery.
+- **Level 4 (Verification & Recovery)**: Deterministic validation (with targeted formal verification for critical invariants), certified manifest enforcement, and multi-tier autonomous recovery.
 
 ---
 
@@ -98,7 +99,7 @@ To cite this glossary:
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.1},
+  version      = {2.1.0},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }

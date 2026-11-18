@@ -1,9 +1,10 @@
 # Judgment Computing: Architectural Specification & Operating Model
 
-> **Version 2.0.1** — November 2026  
+> **Version 2.1.0** — November 2026  
 > **Author**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
-> **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+> **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+> **Status**: Exploratory & Evolving Conceptual Specification (*Sections 1–4 align with the v2.0.1 baseline summarized in Appendices A–B of the published book; Section 5 and subsequent refinements remain experimental and subject to ongoing revision.*)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
@@ -90,7 +91,7 @@ Level 1: Work Surface Composition (Modular Capability Pairing)
 Level 0: Command Execution (Direct Tool / Action Invocation)
 ```
 
-Lower levels never depend on higher-level machinery. A simple file-save runs at Level 0 without loading governance or recovery subsystems.
+Lower levels never depend on higher-level machinery for pre-authorized, low-risk local tasks—a simple file-save runs at Level 0 without loading heavy governance or recovery subsystems. External side effects, sensitive data boundaries, and untrusted operations, however, cannot be arbitrarily downgraded to Level 0 to bypass higher-layer checks.
 
 ---
 
@@ -114,8 +115,8 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
 
 ## 5. Core Boundary Invariants & Design Guarantees
 
-> **Scope of Conceptual Guarantees**:  
-> This specification does not disclose proprietary runtime engines, verification algorithms, internal data schemas, or compilation pipelines. Rather, it defines the **foundational security and continuity invariants** that any conformant Judgment-Aware system must satisfy beyond the four core architectures.
+> **Scope of Conceptual Guarantees (Experimental Specification)**:  
+> This specification does not disclose proprietary runtime engines, verification algorithms, internal data schemas, or compilation pipelines. Rather, it defines the **foundational security and continuity invariants** explored beyond the four core architectures. As an evolving conceptual and simulation-informed model—rather than a finalized industry standard or completed formal benchmark—these definitions and invariants remain experimental and subject to modification, refinement, and revision in future versions.
 
 1. **Contract-Anchored Continuity and Drift Defense**:
    - State transition deltas (Δ) serve not only as transformation memory compression, but also as a pre-execution continuity signal against intent drift.
@@ -149,7 +150,7 @@ This architectural framework is published as an open, vendor-neutral specificati
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.1},
+  version      = {2.1.0},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }

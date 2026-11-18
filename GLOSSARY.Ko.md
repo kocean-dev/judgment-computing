@@ -1,9 +1,10 @@
 # 판단 컴퓨팅: 핵심 개념 용어집 및 분류 체계 (Conceptual Glossary & Taxonomy)
 
-> **Version 2.0.1** — 2026년 11월  
+> **Version 2.1.0** — 2026년 11월  
 > **저자**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
-> **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+> **라이선스**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+> **문서 성격**: 실험적·진화 중인 개념 용어집 (*1~13번 핵심 용어는 출간 단행본 `v2.0.1` 기준선과 정합하며 향후 보완·개정될 수 있습니다.*)
 
 [English Manifesto](README.md) • [한국어 선언문](README.Ko.md) • [Architecture (EN)](ARCHITECTURE.md) • [아키텍처 (KO)](ARCHITECTURE.Ko.md) • [Glossary (EN)](GLOSSARY.md) • [용어집 (KO)](GLOSSARY.Ko.md)
 
@@ -83,7 +84,7 @@
 - **Level 1 (조립, Composition)**: 작업 표면 위에서 모듈형 기능 부품의 직관적 결합.
 - **Level 2 (경계 실행, Boundary Execution)**: 조건부 로직 및 데이터 흐름 규칙 실행.
 - **Level 3 (지식 및 거버넌스, Knowledge & Governance)**: 의도 계약 검증, 정책 준수 확인, 승인 게이트.
-- **Level 4 (형식 검증 및 복구, Verification & Recovery)**: 형식 증명 검증, 인증된 매니페스트 집행, 다계층 자율 복구.
+- **Level 4 (검증 및 복구, Verification & Recovery)**: 결정론적 검증(핵심 불변 조건에 대한 선택적 형식 검증 포함), 인증된 매니페스트 집행, 다계층 자율 복구.
 
 ---
 
@@ -98,7 +99,7 @@
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.0.1},
+  version      = {2.1.0},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }
