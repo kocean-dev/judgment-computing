@@ -112,7 +112,33 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
 
 ---
 
-## 5. Citation & Intellectual Property Notice
+## 5. Core Boundary Invariants & Design Guarantees
+
+> **Scope of Conceptual Guarantees**:  
+> This specification does not disclose proprietary runtime engines, verification algorithms, internal data schemas, or compilation pipelines. Rather, it defines the **foundational security and continuity invariants** that any conformant Judgment-Aware system must satisfy beyond the four core architectures.
+
+1. **Contract-Anchored Continuity and Drift Defense**:
+   - State transition deltas (Δ) serve not only as transformation memory compression, but also as a pre-execution continuity signal against intent drift.
+   - Relying solely on a short sliding window of recent steps fails to detect gradual multi-step escalations in cost, scope, or data sensitivity. Conformant systems evaluate **both local transition deltas and cumulative session trajectories against the immutable baseline of the original `Explicit Intent Contract`**. Legitimate workflow pivots re-anchor this baseline only through explicit **Human Assumption Shift Confirmation**, accompanied by a deterministic summary of how effective capabilities and data sensitivity differ from the original contract.
+
+2. **Closing the Contract–Reality Gap via Deterministic Capability Summary Verification**:
+   - When probabilistic AI translates natural-language requests into structured execution plans, its prose description (e.g., claiming "read-only") can diverge from actual compiled side-effects (**Contract–Reality Gap**).
+   - Prior to promoting or authorizing a workflow for repeated execution, systems must present a **Compiled Capability Summary** derived deterministically from the executable structure rather than AI-generated prose—surfacing maximum external side-effects, external sensitive-data reachability and masking status, hard resource/destination ceilings, and synchronous human gate points. To prevent approval fatigue while closing prose misrepresentation, synchronous sign-off focuses strictly on elevated-risk boundaries (*Asymmetric Intervention*), noting that static capability summaries do not replace semantic payload inspection at runtime.
+
+3. **Four Fail-Closed Admission Invariants**:
+   - At the pre-execution verification boundary, violations of four structural invariants are rejected on a fail-closed basis:
+     - **No Self-Certification (`Producer ≠ Verifier`)**: No workflow generator or AI component may serve as its own verification authority; compliance and safety verification must be grounded independently from generation (e.g., deterministic verification layers or independent evaluators).
+     - **Zero-Grace Revocation on Irreversible Actions**: Upon a constitutional amendment, reversible low-risk workflows may enter a bounded re-verification queue, whereas workflows capable of irreversible external side-effects are invalidated immediately with zero grace window.
+     - **All-Path Egress Sanitization**: Confidential data reaching any external sink must pass through enforced masking across **every reachable execution path**; partial masking on an individual branch is rejected as an unmasked leak.
+     - **Lossless Representation Integrity**: High-precision behavioral rules must never be destructively flattened into oversimplified user controls in a lossy round-trip; restricted or simplified views must preserve full semantic constraints without silent truncation.
+
+4. **Isolated Run-Local Recovery and Scoped Precedent Crystallization**:
+   - When Tier 2 recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification without mutating or contaminating the underlying template certification, whereas **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
+   - Repeated, post-audit-safe **Justified Overrides** and verified exception paths may be promoted into formal scoped policies (**Precedent Crystallization**), strictly constrained beneath constitutional ceilings and human sovereignty.
+
+---
+
+## 6. Citation & Intellectual Property Notice
 
 This architectural framework is published as an open, vendor-neutral specification to establish foundational terminology and prior art in systems engineering.
 
