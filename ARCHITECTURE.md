@@ -1,6 +1,6 @@
 # Judgment Computing: Architectural Specification & Operating Model
 
-> **Version 2.1.1** — November 2026  
+> **Version 2.2.0** — November 2026  
 > **Author**: YL Khim  
 > **DOI**: [10.5281/zenodo.23388470](https://doi.org/10.5281/zenodo.23388470)  
 > **License**: [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
@@ -118,7 +118,7 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
 ## 5. Core Boundary Invariants & Design Guarantees
 
 > **Scope of Conceptual Guarantees (Experimental Specification)**:  
-> This specification does not disclose proprietary runtime engines, verification algorithms, internal data schemas, or compilation pipelines. Rather, it defines the **foundational security and continuity invariants** explored beyond the four core architectures. As an evolving conceptual and simulation-informed model—rather than a finalized industry standard or completed formal benchmark—these definitions and invariants remain experimental and subject to modification, refinement, and revision in future versions.
+> This specification does not disclose proprietary runtime engines, verification algorithms, internal data schemas, or compilation pipelines. Rather, it defines the **foundational security and continuity invariants** explored beyond the four core architectures. These boundary conditions have been refined through exploratory local prototype experiments and iterative boundary testing; however, as an evolving conceptual model—rather than a finalized industry standard, public benchmark, or production OS-level isolation implementation—they remain experimental and subject to modification, refinement, and revision in future versions.
 
 1. **Contract-Anchored Continuity and Drift Defense**:
    - State transition deltas (Δ) serve not only as transformation memory compression, but also as a pre-execution continuity signal against intent drift.
@@ -139,6 +139,18 @@ Model architectures, reasoning engines, and LLM weights are volatile and replace
    - When escalated human-reauthorized recovery is triggered beyond the pre-approved fallback pool, **Run-Local Exception Recovery** is strictly isolated from certified reusable templates: any ad-hoc single-run patch requires explicit human re-authorization and independent single-run verification while remaining strictly bounded within existing authorized permission scopes and constitutional ceilings—without mutating or contaminating the underlying template certification. Capability expansion beyond certified bounds or **Permanent Template Evolution** immediately invalidates prior certification for full re-verification.
    - Repeated, post-audit-safe **Justified Overrides** and verified exception paths may be promoted into formal scoped policies (**Precedent Crystallization**), strictly constrained beneath constitutional ceilings and human sovereignty.
 
+5. **Trusted Capability Registry Over Model Self-Declaration**:
+   - Probabilistic translators or AI agents must never serve as the authoritative source of security-critical metadata (such as data sensitivity, external side-effect severity, or resource cost bounds) for the components they assemble. Conformant systems resolve and overwrite model-emitted component attributes against a **trusted external capability registry** on a fail-closed basis, rejecting unregistered component identifiers outright.
+   - Even across pre-approved external domains, runtime egress inspection should account for common obfuscation transforms (such as bounded recursive decoding of standard encodings). Because pattern-based inspection cannot reliably catch arbitrary semantic steganography, primary containment remains anchored in **structural restriction of external egress authority** rather than payload scanning alone.
+
+6. **Within-Envelope Safe Reduction Preservation**:
+   - To balance deterministic security with practical usability and mitigate approval fatigue, modifications to a certified workflow are evaluated asymmetrically. Any edit that expands permissions, external destinations, data sensitivity, or cost and recipient ceilings immediately triggers **de-certification and full re-verification**.
+   - Conversely, strictly **safe reductions**—narrowing cost caps or recipient counts while remaining entirely inside the already-authorized constitutional and contract envelope—may preserve operational continuity through deterministic integrity re-signing without imposing redundant synchronous re-approval interruptions.
+
+7. **Fail-Closed Monotonic Composition and Verifiable Execution Continuity**:
+   - When multiple verified workflows or reusable blueprints are composed into a larger execution topology, boundary aggregation must be **strictly monotonic in the conservative direction**: budget, recipient, and resource ceilings take the **minimum**, allowed external domains and communication channels take the **intersection**, and data sensitivity, side-effect severity, and required activation levels take the **maximum**, followed by full-graph re-verification across all newly formed paths.
+   - For long-running or interruptible executions, durable per-node **idempotent checkpointing** prevents duplicate side effects and duplicate resource deductions upon resume, while unrecoverable downstream failures trigger **reverse-order (LIFO) compensating rollback** with fail-closed blocking against unsafe replay. Cryptographic hash-chained execution logs strengthen local tamper detection, while acknowledging that defending against full-disk rewriting by a privileged local adversary requires anchoring log roots to an external trust boundary (such as a remote ledger or hardware security module).
+
 ---
 
 ## 6. Citation & Intellectual Property Notice
@@ -152,7 +164,7 @@ This architectural framework is published as an open, vendor-neutral specificati
   year         = {2026},
   month        = nov,
   publisher    = {Zenodo},
-  version      = {2.1.1},
+  version      = {2.2.0},
   doi          = {10.5281/zenodo.23388470},
   url          = {https://doi.org/10.5281/zenodo.23388470}
 }

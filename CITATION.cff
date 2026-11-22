@@ -4,9 +4,9 @@ title: "Judgment Computing: The Final Question of AI Computing"
 authors:
   - family-names: "Khim"
     given-names: "Y. L."
-version: 2.1.1
+version: 2.2.0
 doi: 10.5281/zenodo.23388470
-date-released: 2026-11-18
+date-released: 2026-11-22
 url: "https://doi.org/10.5281/zenodo.23388470"
 repository-code: "https://github.com/kocean-dev/judgment-computing"
 license: "CC-BY-4.0"
